@@ -1,0 +1,52 @@
+site_name: Docu-licious
+site_description: Наш документационный портал
+theme: 
+  name: material 
+  logo: logo.png
+  font:
+    text: Roboto 
+    code: Roboto Mono
+  features:
+    #- navigation.sections
+    - navigation.path # Хлебные крошки
+    - navigation.indexes # Позволяет создавать корневые страницы разделов меню. Корневая страница должна лежать в папке раздела и называться index.md. Пример использования корневых страниц приведен ниже в настройках nav
+    #- navigation.tabs # Верхнее меню
+    #- navigation.tabs.sticky # Фиксация верхнего меню
+    #- Navigation sections # Настройка спойлеров в левом меню
+    #- navigation.expand # Разворачивает спойлеры в левом меню по умолчанию
+    #- toc.integrate # Фиксирует оглавление страницы в левом меню
+    - navigation.instant # Функция быстрой загрузки страниц
+    - navigation.top # Добавляет кнопку «к началу» для быстрой обратной прокрутки страницы
+    - search.suggest # Подсказки при вводе поискового запроса
+    - search.highlight # Подсветка результатов поиска в тексте страницы
+    - content.code.copy # Кнопка копирования в блоке кода
+
+  language: ru 
+  palette: 
+    - scheme: default 
+      toggle:
+        icon: material/weather-sunny 
+        name: Темная тема 
+      primary: teal 
+      accent: deep orange
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Светлая тема
+      primary: teal
+      accent: deep orange
+
+nav: # Структура сайта
+    - Главная страница: index.md
+    - Telegram: 
+      - instructions/index.md
+      - Создание имени пользователя: instructions/malkinatasha-instruction.md
+      - Что-то еще: instructions/something.md
+
+     
+
+extra:
+  social: 
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/malkinatasha 
+
