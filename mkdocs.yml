@@ -42,6 +42,9 @@ nav: # Структура сайта
       - instructions/index.md
       - Создание имени пользователя: instructions/malkinatasha-instruction.md
       - Что-то еще: instructions/something.md
+    - Нотсапп:
+      - notesapp/index.md
+      - Сценарий «Удаление заметки»
 
      
 
