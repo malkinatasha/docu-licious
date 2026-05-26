@@ -44,7 +44,7 @@ nav: # Структура сайта
       - Что-то еще: instructions/something.md
     - Нотсапп:
       - notesapp/index.md
-      - Сценарий «Удаление заметки»
+      - Сценарий «Удаление заметки»: notesapp/delete-note.md
 
      
 
