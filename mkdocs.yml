@@ -45,6 +45,9 @@ nav: # Структура сайта
     - Нотсапп:
       - notesapp/index.md
       - Сценарий «Удаление заметки»: notesapp/delete-note.md
+    - API:
+      - Swagger API: api/swagger-api.md
+      - Redoc API: api/redoc-api.md
 
      
 
@@ -57,3 +60,5 @@ plugins:
   - search
   - tags
   - glightbox
+  - swagger-ui-tag
+  - redoc-tag
