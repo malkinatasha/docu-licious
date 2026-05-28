@@ -62,3 +62,5 @@ plugins:
   - glightbox
   - swagger-ui-tag
   - redoc-tag
+  - plantuml: 
+      puml_url: https://www.plantuml.com/plantuml/
