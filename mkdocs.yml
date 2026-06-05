@@ -64,3 +64,6 @@ plugins:
   - redoc-tag
   - plantuml: 
       puml_url: https://www.plantuml.com/plantuml/
+
+extra_css:
+  - stylesheets/extra.css
